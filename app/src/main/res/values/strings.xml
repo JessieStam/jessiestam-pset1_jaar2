@@ -2,4 +2,14 @@
     <string name="app_name">jessiestam-pset1_poging2</string>
     <string name="app_title">Mr. Potato Head</string>
     <string name="instructions">Tap the boxes to (un)dress Mr. Potato Head!</string>
+    <string name="arms_check">Arms</string>
+    <string name="ears_check">Ears</string>
+    <string name="eyebrows_check">Eyebrows</string>
+    <string name="eyes_check">Eyes</string>
+    <string name="glasses_check">Glasses</string>
+    <string name="hat_check">Hat</string>
+    <string name="mouth_check">Mouth</string>
+    <string name="moustache_check">Moustache</string>
+    <string name="nose_check">Nose</string>
+    <string name="shoes_check">Shoes</string>
 </resources>
