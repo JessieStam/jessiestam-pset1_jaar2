@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">jessiestam-pset1_poging2</string>
     <string name="app_title">Mr. Potato Head</string>
+    <string name="instructions">Tap the boxes to (un)dress Mr. Potato Head!</string>
 </resources>

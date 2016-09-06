@@ -38,9 +38,79 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/imageView"
+                android:id="@+id/body_id"
                 android:layout_gravity="center_horizontal"
                 android:background="@mipmap/body" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/arms_id"
+                android:layout_gravity="center"
+                android:background="@mipmap/arms" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ears_id"
+                android:layout_gravity="center"
+                android:background="@mipmap/ears" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/eyebrows_id"
+                android:layout_gravity="center"
+                android:background="@mipmap/eyebrows" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/eyes_id"
+                android:layout_gravity="center"
+                android:background="@mipmap/eyes" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/glasses_id"
+                android:layout_gravity="center"
+                android:background="@mipmap/glasses" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/hat_id"
+                android:layout_gravity="center"
+                android:background="@mipmap/hat" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/mouth_id"
+                android:layout_gravity="center"
+                android:background="@mipmap/mouth" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/moustache_id"
+                android:layout_gravity="center"
+                android:background="@mipmap/mustache" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/nose_id"
+                android:layout_gravity="center"
+                android:background="@mipmap/nose" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/shoes_id"
+                android:layout_gravity="center"
+                android:background="@mipmap/shoes" />
         </FrameLayout>
 
         <FrameLayout
@@ -52,7 +122,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="Tap the boxes to (un)dress Mr. Potato Head!"
+                android:text="@string/instructions"
                 android:id="@+id/textView2"
                 android:layout_gravity="center_horizontal" />
         </FrameLayout>
@@ -75,36 +145,37 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="New CheckBox"
-                    android:id="@+id/checkBox"
+                    android:id="@+id/check_arms"
                     android:checked="false"
-                    android:layout_gravity="center_horizontal"/>
+                    android:layout_gravity="center_horizontal"
+                    android:onClick="CheckButton"/>
 
                 <CheckBox
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="New CheckBox"
-                    android:id="@+id/checkBox2"
+                    android:id="@+id/check_ears"
                     android:layout_gravity="center_horizontal" />
 
                 <CheckBox
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="New CheckBox"
-                    android:id="@+id/checkBox5"
+                    android:id="@+id/check_eyebrows"
                     android:layout_gravity="center_horizontal"/>
 
                 <CheckBox
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="New CheckBox"
-                    android:id="@+id/checkBox6"
+                    android:id="@+id/check_eyes"
                     android:layout_gravity="center_horizontal" />
 
                 <CheckBox
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="New CheckBox"
-                    android:id="@+id/checkBox10"
+                    android:id="@+id/check_glasses"
                     android:layout_gravity="center_horizontal" />
             </LinearLayout>
 
@@ -118,35 +189,35 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="New CheckBox"
-                    android:id="@+id/checkBox3"
+                    android:id="@+id/check_hat"
                     android:layout_gravity="center_horizontal"/>
 
                 <CheckBox
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="New CheckBox"
-                    android:id="@+id/checkBox4"
+                    android:id="@+id/check_mouth"
                     android:layout_gravity="center_horizontal"/>
 
                 <CheckBox
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="New CheckBox"
-                    android:id="@+id/checkBox7"
+                    android:id="@+id/check_moustache"
                     android:layout_gravity="center_horizontal" />
 
                 <CheckBox
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="New CheckBox"
-                    android:id="@+id/checkBox8"
+                    android:id="@+id/check_nose"
                     android:layout_gravity="center_horizontal" />
 
                 <CheckBox
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="New CheckBox"
-                    android:id="@+id/checkBox9"
+                    android:id="@+id/check_shoes"
                     android:layout_gravity="center_horizontal" />
             </LinearLayout>
 
