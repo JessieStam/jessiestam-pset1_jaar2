@@ -123,7 +123,7 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:text="@string/instructions"
-                android:id="@+id/textView2"
+                android:id="@+id/instructions_id"
                 android:layout_gravity="center_horizontal" />
         </FrameLayout>
 
