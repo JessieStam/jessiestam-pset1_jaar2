@@ -156,7 +156,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/arms_check"
-                    android:id="@+id/check_arms"
+                    android:id="@+id/arms_id_check"
                     android:checked="false"
                     android:onClick="CheckButton"/>
 
@@ -164,19 +164,19 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/ears_check"
-                    android:id="@+id/check_ears" />
+                    android:id="@+id/ears_id_check" />
 
                 <CheckBox
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/eyebrows_check"
-                    android:id="@+id/check_eyebrows"/>
+                    android:id="@+id/eyebrows_id_check"/>
 
                 <CheckBox
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/eyes_check"
-                    android:id="@+id/check_eyes" />
+                    android:id="@+id/eyes_id_check" />
 
                 <CheckBox
                     android:layout_width="wrap_content"
@@ -196,31 +196,31 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/hat_check"
-                    android:id="@+id/check_hat" />
+                    android:id="@+id/hat_id_check" />
 
                 <CheckBox
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/mouth_check"
-                    android:id="@+id/check_mouth"/>
+                    android:id="@+id/mouth_id_check"/>
 
                 <CheckBox
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/moustache_check"
-                    android:id="@+id/check_moustache" />
+                    android:id="@+id/moustache_id_check" />
 
                 <CheckBox
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/nose_check"
-                    android:id="@+id/check_nose" />
+                    android:id="@+id/nose_id_check" />
 
                 <CheckBox
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/shoes_check"
-                    android:id="@+id/check_shoes" />
+                    android:id="@+id/shoes_id_check" />
 
             </LinearLayout>
 

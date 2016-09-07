@@ -33,12 +33,12 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_gravity="center_horizontal">
 
             <FrameLayout
-                android:layout_width="232dp"
-                android:layout_height="262dp"
+                android:layout_width="225dp"
+                android:layout_height="242dp"
                 android:layout_gravity="left">
 
                 <ImageView
