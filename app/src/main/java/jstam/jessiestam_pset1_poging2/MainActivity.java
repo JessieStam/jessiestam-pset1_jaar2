@@ -22,13 +22,13 @@ public class MainActivity extends AppCompatActivity {
                 .replace("_check", "");
 
         // find matching ImageView by creating integer for checkbox id
-        int imageId = getResources().getIdentifier(bodyPartBox, "string", getPackageName());
+        int imageId = getResources().getIdentifier(bodyPartBox, "id", getPackageName());
         ImageView bodyPartImage = (ImageView) findViewById(imageId);
 
         // if checkbox is checked set ImageView to visible, if not checked set to invisible
-        if (bodyPartImage.getVisibility() != View.VISIBLE)
+        if (bodyPartImage != null && bodyPartImage.getVisibility() != View.VISIBLE)
             bodyPartImage.setVisibility(View.VISIBLE);
-        else
+        else if (bodyPartImage != null)
             bodyPartImage.setVisibility(View.INVISIBLE);
     }
 }
