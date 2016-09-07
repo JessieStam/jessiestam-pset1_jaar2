@@ -53,70 +53,80 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/arms_id"
                     android:layout_gravity="center"
-                    android:background="@mipmap/arms" />
+                    android:background="@mipmap/arms"
+                    android:visibility="invisible"/>
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/ears_id"
                     android:layout_gravity="center"
-                    android:background="@mipmap/ears" />
+                    android:background="@mipmap/ears"
+                    android:visibility="invisible"/>
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/eyebrows_id"
                     android:layout_gravity="center"
-                    android:background="@mipmap/eyebrows" />
+                    android:background="@mipmap/eyebrows"
+                    android:visibility="invisible"/>
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/eyes_id"
                     android:layout_gravity="center"
-                    android:background="@mipmap/eyes" />
+                    android:background="@mipmap/eyes"
+                    android:visibility="invisible"/>
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/glasses_id"
                     android:layout_gravity="center"
-                    android:background="@mipmap/glasses" />
+                    android:background="@mipmap/glasses"
+                    android:visibility="invisible"/>
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/hat_id"
                     android:layout_gravity="center"
-                    android:background="@mipmap/hat" />
+                    android:background="@mipmap/hat"
+                    android:visibility="invisible"/>
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/mouth_id"
                     android:layout_gravity="center"
-                    android:background="@mipmap/mouth" />
+                    android:background="@mipmap/mouth"
+                    android:visibility="invisible"/>
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/moustache_id"
                     android:layout_gravity="center"
-                    android:background="@mipmap/mustache" />
+                    android:background="@mipmap/mustache"
+                    android:visibility="invisible"/>
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/nose_id"
                     android:layout_gravity="center"
-                    android:background="@mipmap/nose" />
+                    android:background="@mipmap/nose"
+                    android:visibility="invisible"/>
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:id="@+id/shoes_id"
                     android:layout_gravity="center"
-                    android:background="@mipmap/shoes" />
+                    android:background="@mipmap/shoes"
+                    android:visibility="invisible"/>
             </FrameLayout>
 
             <LinearLayout
