@@ -17,18 +17,26 @@ public class MainActivity extends AppCompatActivity {
     // when checkbox is clicked, change image visibility
     public void CheckButton(View viewCheckbox) {
 
+        boolean checked = ((CheckBox) viewCheckbox).isChecked();
+
         // get checkbox id and make string for clicked checkbox name to match ImageView id name
         String bodyPartBox = getResources().getResourceEntryName(viewCheckbox.getId())
                 .replace("_check", "");
 
         // find matching ImageView by creating integer for checkbox id
-        int imageId = getResources().getIdentifier(bodyPartBox, "id", getPackageName());
+        Integer imageId = getResources().getIdentifier(bodyPartBox, "id", getPackageName());
         ImageView bodyPartImage = (ImageView) findViewById(imageId);
 
-        // if checkbox is checked set ImageView to visible, if not checked set to invisible
-        if (bodyPartImage != null && bodyPartImage.getVisibility() != View.VISIBLE)
+        if (checked)
             bodyPartImage.setVisibility(View.VISIBLE);
-        else if (bodyPartImage != null)
+        else
             bodyPartImage.setVisibility(View.INVISIBLE);
+
+
+        // if checkbox is checked set ImageView to visible, if not checked set to invisible
+//        if (bodyPartImage != null && bodyPartImage.getVisibility() != View.VISIBLE)
+//            bodyPartImage.setVisibility(View.VISIBLE);
+//        else if (bodyPartImage != null)
+//            bodyPartImage.setVisibility(View.INVISIBLE);
     }
 }
