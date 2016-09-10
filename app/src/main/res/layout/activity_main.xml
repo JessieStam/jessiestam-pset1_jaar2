@@ -188,7 +188,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/glasses_check"
-                    android:id="@+id/check_glasses"
+                    android:id="@+id/glasses_id_check"
                     android:checked="false"
                     android:onClick="CheckButton"/>
             </LinearLayout>
