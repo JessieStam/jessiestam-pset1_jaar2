@@ -16,6 +16,8 @@ import java.util.Iterator;
  *
  * This application lets the user dress and undress Mr. Potato Head by clicking the corresponding
  * checkboxes to his features. It works in both horizontal and landscape mode.
+ *
+ * WAAR THE FUCK PUSH IK HEEN
  */
 
 public class MainActivity extends AppCompatActivity {
