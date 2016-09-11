@@ -9,6 +9,15 @@ import android.widget.ImageView;
 import java.util.ArrayList;
 import java.util.Iterator;
 
+/*
+ * Mr. Potato Head
+ *
+ * Jessie Stam
+ *
+ * This application lets the user dress and undress Mr. Potato Head by clicking the corresponding
+ * checkboxes to his features. It works in both horizontal and landscape mode.
+ */
+
 public class MainActivity extends AppCompatActivity {
 
     ArrayList<Integer> checked_images_list;
@@ -20,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // if savedInstanceState is empty, create new ArrayList to put IDs of checked CheckBoxes
+        // if savedInstanceState is empty, create new ArrayList for IDs of checked CheckBoxes
         if (savedInstanceState == null) {
             checked_images_list = new ArrayList<>();
         }
